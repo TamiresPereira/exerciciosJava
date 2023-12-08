@@ -11,4 +11,5 @@ public class Foreach {
             System.out.println(nota + " ");
         }
     }
+
 }
