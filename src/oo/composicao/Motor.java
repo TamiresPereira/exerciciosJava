@@ -2,7 +2,7 @@ package oo.composicao;
 
 public class Motor {
 
-    Carro carro;
+    public Carro carro;
     double fatorInjecao = 1;
     boolean ligado = false;
 
@@ -10,7 +10,7 @@ public class Motor {
         this.carro = carro;
     }
 
-    int giros() {
+    public int giros() {
         if (!ligado) {
             return 0;
         } else {
